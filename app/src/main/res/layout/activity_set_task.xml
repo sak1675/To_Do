@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".setTask">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark"
+        >
+
+        <TextView
+            android:id="@+id/title_st"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/carter_one"
+            android:text="@string/set_task"
+            android:textAlignment="center"
+            android:textColor="#F5F5F5"
+            android:textSize="50sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#F5F5F5"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:padding="10dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/task_txt"
+                android:hint="@string/add_what_to_do"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:padding="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/description"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:padding="10dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/desc_txt"
+                android:maxLength="80"
+                android:hint="@string/what_you_want_to_do"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:padding="10dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/time"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:padding="10dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/due_txt"
+                android:hint="@string/when_you_want_to_do"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:padding="10dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/confirm_btn"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:background="#32CD32"
+            android:padding="10dp"
+            android:text="@string/set_task"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancel_btn"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="43dp"
+            android:background="#FF0000"
+            android:padding="10dp"
+            android:text="@string/cancel"
+            android:textColor="#FFFFFF" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

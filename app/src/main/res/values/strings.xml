@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Tasks</string>
+    <string name="to_do_tasks">To Do Tasks</string>
+    <string name="time_is_key_finish_tasks_in_time">Time is key. Finish tasks in Time.</string>
+    <string name="adds_task">adds task</string>
+    <string name="add_task">+</string>
+    <string name="set_task">Set New Task</string>
+    <string name="title">Title</string>
+    <string name="add_what_to_do">Add what to do</string>
+    <string name="description">Description</string>
+    <string name="what_you_want_to_do">What you want to do</string>
+    <string name="time">Time</string>
+    <string name="when_you_want_to_do">When you want to do</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="update_task">Update Task</string>
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "50880962915",
+    "firebase_url": "https://tasks-to-do-c4283.firebaseio.com",
+    "project_id": "tasks-to-do-c4283",
+    "storage_bucket": "tasks-to-do-c4283.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50880962915:android:0f0d10001213ed9cc5b356",
+        "android_client_info": {
+          "package_name": "com.example.tasks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50880962915-e4gpj87b9ut7lotve25i02vrhp0ei8k2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmbGSex0LgywPE0NpZ6k5Ms_T6DuZYNpM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "50880962915-e4gpj87b9ut7lotve25i02vrhp0ei8k2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark"
+        >
+
+        <TextView
+            android:id="@+id/title_hm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/carter_one"
+            android:text="@string/to_do_tasks"
+            android:textAlignment="center"
+            android:textColor="#F5F5F5"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/frank_ruhl_libre_medium"
+            android:text="@string/time_is_key_finish_tasks_in_time"
+            android:textAlignment="center"
+            android:textColor="#DCDCDC"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/to_do_tasks"
+    android:layout_width="match_parent"
+    android:layout_height="450dp"
+    android:background="#F8F8FF"
+    android:layout_marginTop="-30dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:id="@+id/add_task"
+            android:layout_height="60dp"
+            android:background="#FFFFFF"
+            android:contentDescription="@string/add_task"
+            android:src="@drawable/ic_baseline_add_circle_24" />
+    </LinearLayout>
+
+</LinearLayout>
